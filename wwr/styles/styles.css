@@ -4,6 +4,18 @@ body, h1, h2, h3, p, ul, li {
     padding: 0;
 }
 
+/* Style the entire page */
+#content {
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto; /* Center the content horizontally */
+}
+
+#background {
+    height: 725px;
+    background-color: #4caf50 ;
+}
+
 /* Apply a background color and set text color */
 body {
     background-color: #f2f2f2;
@@ -13,7 +25,7 @@ body {
 
 /* Style the header */
 header {
-    background-color: #0066cc;
+    background-color: #0077a7; /* primary color */
     color: #fff;
     padding: 10px 0;
     display: flex;
@@ -22,7 +34,7 @@ header {
 }
 
 .logo {
-    width: 100px;
+    width: 80px; /* Updated width for the logo */
     height: auto;
     margin: 0 20px;
 }
@@ -30,7 +42,12 @@ header {
 nav a {
     color: #fff;
     text-decoration: none;
+    text-align: center;
     margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Add text decoration on hover */
 }
 
 /* Style the hero section */
@@ -46,24 +63,30 @@ nav a {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
+    text-align: center;
     margin-top: 20px;
 }
 
 .home-title {
-    color: #0066cc;
+    color: #0077a7; /* primary color */
     font-size: 36px;
 }
 
 .button-box {
     margin-top: 20px;
+    text-align: center;
 }
 
-.book {
-    background-color: #0066cc;
+.book, .join {
+    background-color: #4caf50; /* secondary color */
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
+}
+
+.book:hover, .join:hover {
+    background-color: #ff6f61; /* accent color */
 }
 
 /* Style the main content grid */
@@ -83,14 +106,14 @@ nav a {
 }
 
 .card-img {
-    max-width: 100%;
+    max-width: 80px; /* Updated width for card icons */
     height: auto;
     border-radius: 5px;
 }
 
 .icon {
-    width: 50px;
-    height: 50px;
+    width: 80px; /* Updated width for card icons */
+    height: 80px; /* Updated height for card icons */
 }
 
 h2 {
@@ -107,8 +130,16 @@ h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.msg h2 {
+    color: #0077a7; /* primary color */
+}
+
+.msg p {
+    color: #333;
+}
+
 .join {
-    background-color: #0066cc;
+    background-color: #4caf50; /* secondary color */
     color: #fff;
     padding: 10px 20px;
     border-radius: 5px;
@@ -117,7 +148,7 @@ h2 {
 
 /* Style the footer */
 footer {
-    background-color: #0066cc;
+    background-color: #0077a7; /* primary color */
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -131,4 +162,9 @@ footer {
     margin: 0 10px;
     text-decoration: none;
     color: #fff;
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add text decoration on hover */
+    font-size: 18px; /* Increase font size on hover */
 }
