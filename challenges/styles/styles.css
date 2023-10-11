@@ -1,0 +1,32 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #737373;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-image: url("/challenges/images/w05_circles.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 750px; /* Adjust the height as needed */
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+img {
+    border: 20px solid #444444;
+    border-radius: 50%; /* Makes the images round */
+    margin: 10px;
+    max-width: 350px; /* Adjust the size as needed */
+    max-height: 350px; /* Adjust the size as needed */
+}
+
