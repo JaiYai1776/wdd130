@@ -1,3 +1,4 @@
+
 /* Reset default margin and padding for better consistency */
 body, h1, h2, h3, p, ul, li {
     margin: 0;
@@ -13,7 +14,7 @@ body, h1, h2, h3, p, ul, li {
 
 #background {
     height: 725px;
-    background-color: #4caf50 ;
+    background-color: #4caf50;
 }
 
 /* Apply a background color and set text color */
@@ -21,6 +22,7 @@ body {
     background-color: #f2f2f2;
     color: #333;
     font-family: Arial, sans-serif;
+    font-size: 22px; /* Increase the default font size */
 }
 
 /* Style the header */
@@ -37,6 +39,7 @@ header {
     width: 80px; /* Updated width for the logo */
     height: auto;
     margin: 0 20px;
+    padding-top: 5px; /* Add padding to the logo */
 }
 
 nav a {
@@ -44,6 +47,7 @@ nav a {
     text-decoration: none;
     text-align: center;
     margin: 0 10px;
+    padding: 35px; /* Add padding to nav links */
 }
 
 nav a:hover {
@@ -70,6 +74,8 @@ nav a:hover {
 .home-title {
     color: #0077a7; /* primary color */
     font-size: 36px;
+    font-size: 2em; /* Make the title twice as big as the default font size */
+    margin-top: 10px; /* Add margin to the title */
 }
 
 .button-box {
@@ -81,8 +87,9 @@ nav a:hover {
     background-color: #4caf50; /* secondary color */
     color: #fff;
     padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
+    border-radius: 5px; /* Add border radius to book and join */
+    font-size: 18px; /* Set font size for book and join */
+    margin-top: 50px; /* Add margin to book and join */
 }
 
 .book:hover, .join:hover {
@@ -103,17 +110,20 @@ nav a:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin: 200px 0; /* Add margin to card elements */
 }
 
 .card-img {
     max-width: 80px; /* Updated width for card icons */
     height: auto;
-    border-radius: 5px;
+    border-radius: 5px; /* Add border radius to card icons */
+    border: 10px solid #000; /* Add border to card images (you can replace #000 with your preferred color) */
 }
 
 .icon {
     width: 80px; /* Updated width for card icons */
     height: 80px; /* Updated height for card icons */
+    padding-top: 10px; /* Add padding to icons */
 }
 
 h2 {
@@ -124,8 +134,8 @@ h2 {
 
 /* Style the "Beyond the Thrills" section */
 .msg {
-    background-color: #fff;
-    padding: 20px;
+    background-color: #6f7364; /* Updated background color */
+    padding: 35px; /* Add padding to msg */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -136,6 +146,8 @@ h2 {
 
 .msg p {
     color: #333;
+    font-size: 0.8em; /* Set font size for msg p */
+    padding-bottom: 15px; /* Add padding to msg p */
 }
 
 .join {
@@ -152,6 +164,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
+    margin-top: 200px; /* Add margin to the footer */
 }
 
 .social {
@@ -167,4 +180,9 @@ footer {
 footer a:hover {
     text-decoration: underline; /* Add text decoration on hover */
     font-size: 18px; /* Increase font size on hover */
+}
+
+/* Add box-sizing: border-box to main section img */
+main section img {
+    box-sizing: border-box;
 }
